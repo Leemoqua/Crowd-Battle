@@ -16,7 +16,7 @@ public class Enemy : Clone
     }
 
     // Update is called once per frame
-    protected override void Update()
+     void Update()
     {
       FollowPlayer();
     }

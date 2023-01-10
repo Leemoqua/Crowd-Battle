@@ -27,7 +27,7 @@ public class Clone : MonoBehaviour
     // Update is called once per frame
 
     // Ghi chu lam mau
-    protected virtual void LateUpdate()
+    void LateUpdate()
     {
        FollowPlayer();
     }
